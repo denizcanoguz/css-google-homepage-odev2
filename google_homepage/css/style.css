@@ -54,7 +54,9 @@ nav{
   text-align: center;
   margin: 100px;
 }
-
+.buttons{
+  text-align: center;
+}
 .search-area {
   background: #fff;
   display: flex;
@@ -131,32 +133,61 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 }
 
 .harfCevirme{
-  background: url(//www.gstatic.com/inputtools/images/tia.png) no-repeat center;
+    margin-top:8px;
+    cursor: pointer;
+    align-items: center;
     height: 24px;
     width: 24px;
     vertical-align: middle;
 }
 
+.voice-pic{
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    margin-top: 5px;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 24px;
+}
 .googlesearch {
-  margin: 11px 4px;
-  padding: 0 16px;
-  line-height: 27px;
-  min-width: 54px;
-  text-align: center;
-  cursor: pointer;
-  user-select: none;
+  background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
 
 .feelinglucky {
-  padding: 0 16px;
-  line-height: 27px;
-  min-width: 54px;
-  text-align: center;
-  cursor: pointer;
-  user-select: none;
+  background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
 
 .footer {
+  background-color: #f8f9fa;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -167,6 +198,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   width: 100%;
   margin-left: -8px;
   line-height: 10px;
+  list-style-type: none;
 }
 
 .footerli {
